@@ -2,5 +2,18 @@ return {
   none = "NONE",
   purple_500 = "#7300ff",
   purple_200 = "#c799ff",
-  white = "#ffffff"
+  white = "#ffffff",
+  zinc_300 = "#d4d4d8",
+  zinc_400 = "#a1a1aa",
+  zinc_500 = "#71717a",
+  zinc_600 = "#52525b",
+  zinc_700 = "#3f3f46",
+  zinc_800 = "#27272a",
+  zinc_900 = "#18181b",
+  yellow_500 = "#eab308",
+  yellow_600 = "#ca8a04",
+  yellow_700 = "#a16207",
+  yellow_800 = "#854d0e",
+  red_600 = "#dc2626",
+  blue_600 = "#2563eb"
 };

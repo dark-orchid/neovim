@@ -16,16 +16,22 @@ function M.load ()
   vim.g.colors_name = "dark-orchid"
 
   local nvim_integration = require("dark-orchid.integrations.nvim");
-
   utils.apply_highlight_groups(nvim_integration);
 
-  local lazy_integration = require("dark-orchid.integrations.lazy");
+  local neotree_integration = require("dark-orchid.integrations.neotree");
+  utils.apply_highlight_groups(neotree_integration);
 
+  local barbar_integration = require("dark-orchid.integrations.barbar");
+  utils.apply_highlight_groups(barbar_integration);
+
+  local lazy_integration = require("dark-orchid.integrations.lazy");
   utils.apply_highlight_groups(lazy_integration);
 
   local dashboard_integration = require("dark-orchid.integrations.dashboard");
-
   utils.apply_highlight_groups(dashboard_integration);
+
+  local indentmini_integration = require("dark-orchid.integrations.indentmini");
+  utils.apply_highlight_groups(indentmini_integration);
 end
 
 return M;

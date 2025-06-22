@@ -15,5 +15,6 @@ return {
   yellow_700 = "#a16207",
   yellow_800 = "#854d0e",
   red_600 = "#dc2626",
-  blue_600 = "#2563eb"
+  blue_600 = "#2563eb",
+  green_600 = "#16a34a"
 };

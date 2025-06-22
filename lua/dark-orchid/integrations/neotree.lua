@@ -60,7 +60,7 @@ local M = {
     fg = palette.zinc_500
   },
   NeoTreeFilterTerm = {
-    fg = palette.purple_500
+    fg = palette.purple_200
   },
   NeoTreeDimText = {
     fg = palette.zinc_500

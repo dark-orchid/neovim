@@ -18,6 +18,9 @@ function M.load ()
   local nvim_integration = require("dark-orchid.integrations.nvim");
   utils.apply_highlight_groups(nvim_integration);
 
+  local mason_integration = require("dark-orchid.integrations.mason");
+  utils.apply_highlight_groups(mason_integration);
+
   local neotree_integration = require("dark-orchid.integrations.neotree");
   utils.apply_highlight_groups(neotree_integration);
 
@@ -33,5 +36,8 @@ function M.load ()
   local indentmini_integration = require("dark-orchid.integrations.indentmini");
   utils.apply_highlight_groups(indentmini_integration);
 end
+
+  local gitsigns_integration = require("dark-orchid.integrations.gitsigns");
+  utils.apply_highlight_groups(gitsigns_integration);
 
 return M;

@@ -34,6 +34,9 @@ return {
   CursorLine = {
     bg = palette.none
   },
+  DiagnosticOk = {
+    fg = palette.green_600
+  },
   DiagnosticWarn = {
     fg = palette.yellow_600
   },
@@ -70,5 +73,8 @@ return {
   },
   CursorLineNr = {
     fg = palette.white
+  },
+  FloatBorder = {
+    fg = palette.purple_500
   }
 }

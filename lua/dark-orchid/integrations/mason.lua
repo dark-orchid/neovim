@@ -10,7 +10,7 @@ local M = {
     bg = palette.purple_500
   },
   MasonHighlight = {
-    fg = palette.purple_500
+    fg = palette.white
   },
   MasonHighlightSecondary = {
     fg = palette.purple_500
@@ -19,6 +19,9 @@ local M = {
     fg = palette.white,
     bg = palette.purple_500
   },
+  MasonMuted = {
+    fg = palette.zinc_500
+  },
   MasonMutedBlock = {
     fg = palette.white,
     bg = palette.none
@@ -26,6 +29,9 @@ local M = {
   MasonHighlightBlockBoldSecondary = {
     fg = palette.white,
     bg = palette.purple_500
+  },
+  MasonWarning = {
+    fg = palette.yellow_600
   }
 }
 

@@ -41,6 +41,9 @@ function M.load ()
 
   local telescope_integration = require("dark-orchid.integrations.telescope");
   utils.apply_highlight_groups(telescope_integration);
+
+  local cmp_integration = require("dark-orchid.integrations.cmp");
+  utils.apply_highlight_groups(cmp_integration);
 end
 
 return M;

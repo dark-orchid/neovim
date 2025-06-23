@@ -17,6 +17,10 @@ return {
     fg = palette.white,
     bg = palette.none
   },
+  PmenuSel = {
+    fg = palette.white,
+    bg = palette.purple_500
+  },
   Search = {
     bg = palette.purple_500,
     fg = palette.white

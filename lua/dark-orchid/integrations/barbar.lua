@@ -21,10 +21,10 @@ local M = {
     fg = palette.purple_500
   },
   BufferCurrentIndex = {
-    fg = palette.purple_200
+    fg = palette.purple_500
   },
   BufferCurrentModBtn = {
-    fg = palette.purple_200
+    fg = palette.purple_500
   },
   BufferCurrentMod = {
     fg = palette.purple_500

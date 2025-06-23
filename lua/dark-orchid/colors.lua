@@ -1,5 +1,8 @@
 return {
   none = "NONE",
+  fuchsia_200 = "#f5d0fe",
+  fuchsia_300 = "#f0abfc",
+  fuchsia_400 = "#e879f9",
   purple_500 = "#7300ff",
   purple_200 = "#c799ff",
   white = "#ffffff",
@@ -15,6 +18,8 @@ return {
   yellow_700 = "#a16207",
   yellow_800 = "#854d0e",
   red_600 = "#dc2626",
+  blue_200 = "#bfdbfe",
+  blue_400 = "#60a5fa",
   blue_600 = "#2563eb",
   green_600 = "#16a34a"
 };

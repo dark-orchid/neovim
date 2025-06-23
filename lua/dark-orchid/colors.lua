@@ -6,6 +6,7 @@ return {
   purple_500 = "#7300ff",
   purple_200 = "#c799ff",
   white = "#ffffff",
+  black = "#000000",
   zinc_300 = "#d4d4d8",
   zinc_400 = "#a1a1aa",
   zinc_500 = "#71717a",

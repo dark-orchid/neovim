@@ -40,6 +40,10 @@ return {
   StatusLineNC = {
     bg = palette.none
   },
+  Cursor = {
+    fg = palette.black,
+    bg = palette.white
+  },
   CursorLine = {
     bg = palette.none
   },
@@ -86,7 +90,6 @@ return {
   FloatBorder = {
     fg = palette.purple_500
   },
-
 
   -- Syntax
   Comment = {

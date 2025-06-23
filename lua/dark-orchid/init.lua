@@ -35,9 +35,12 @@ function M.load ()
 
   local indentmini_integration = require("dark-orchid.integrations.indentmini");
   utils.apply_highlight_groups(indentmini_integration);
-end
 
   local gitsigns_integration = require("dark-orchid.integrations.gitsigns");
   utils.apply_highlight_groups(gitsigns_integration);
+
+  local telescope_integration = require("dark-orchid.integrations.telescope");
+  utils.apply_highlight_groups(telescope_integration);
+end
 
 return M;

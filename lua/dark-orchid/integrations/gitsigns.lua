@@ -2,8 +2,7 @@ local palette = require("dark-orchid.colors");
 
 local M = {
   GitSignsAdd = {
-    fg = palette.white,
-    bg = palette.white
+    fg = palette.green_600
   },
   GitSignsChange = {
     fg = palette.yellow_600

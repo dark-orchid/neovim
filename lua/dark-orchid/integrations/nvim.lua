@@ -17,6 +17,14 @@ return {
     fg = palette.white,
     bg = palette.none
   },
+  Search = {
+    bg = palette.purple_500,
+    fg = palette.white
+  },
+  IncSearch = {
+    bg = palette.purple_500,
+    fg = palette.white
+  },
   TabLineFill = {
     bg = palette.none
   },

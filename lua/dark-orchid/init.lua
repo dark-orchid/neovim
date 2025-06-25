@@ -1,8 +1,16 @@
 local utils = require("dark-orchid.utils");
+local config = require("dark-orchid.config");
 local M = {};
 
-function M.setup()
-end;
+M.merged_options = {};
+
+function M.setup(options)
+  if options == nil then
+    M.merged_options = config.default_config;
+  else
+    M.merged_options = config.validate_and_merge(options);
+  end
+end
 
 function M.load ()
   vim.cmd("hi clear")
@@ -15,35 +23,7 @@ function M.load ()
   vim.o.termguicolors = true
   vim.g.colors_name = "dark-orchid"
 
-  local nvim_integration = require("dark-orchid.integrations.nvim");
-  utils.apply_highlight_groups(nvim_integration);
-
-  local mason_integration = require("dark-orchid.integrations.mason");
-  utils.apply_highlight_groups(mason_integration);
-
-  local neotree_integration = require("dark-orchid.integrations.neotree");
-  utils.apply_highlight_groups(neotree_integration);
-
-  local barbar_integration = require("dark-orchid.integrations.barbar");
-  utils.apply_highlight_groups(barbar_integration);
-
-  local lazy_integration = require("dark-orchid.integrations.lazy");
-  utils.apply_highlight_groups(lazy_integration);
-
-  local dashboard_integration = require("dark-orchid.integrations.dashboard");
-  utils.apply_highlight_groups(dashboard_integration);
-
-  local indentmini_integration = require("dark-orchid.integrations.indentmini");
-  utils.apply_highlight_groups(indentmini_integration);
-
-  local gitsigns_integration = require("dark-orchid.integrations.gitsigns");
-  utils.apply_highlight_groups(gitsigns_integration);
-
-  local telescope_integration = require("dark-orchid.integrations.telescope");
-  utils.apply_highlight_groups(telescope_integration);
-
-  local cmp_integration = require("dark-orchid.integrations.cmp");
-  utils.apply_highlight_groups(cmp_integration);
+  config.apply_config_integrations(M.merged_options);
 end
 
 return M;

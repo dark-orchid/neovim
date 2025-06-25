@@ -11,6 +11,7 @@ The Dark Orchid Theme is a cohesive visual ecosystem built around the striking c
 - Supports latest NeoVim Features
 - Fully Transparent
 - Many Plugin Integrations
+- IT'S PURPLE
 
 ## Plugin Integrations
 - [barbar](https://github.com/romgrk/barbar.nvim)
@@ -51,12 +52,29 @@ vim.cmd.colorscheme("dark-orchid")
 ```
 
 ## Configuration
+### Integrations
 > [!IMPORTANT]
 > Since this Plugin should only activate necessary Integration, only NeoVim Integration is activated by default.
 > 
 > Here you'll learn how to enable all other Plugin Integrations.
-
-
+1. Go to the [Integrations Directory](./lua/dark-orchid/integrations/)
+2. Remember the Plugin filename from this Directory, you want to active Integration for
+3. Enable the Plugin Integration:
+```lua
+return {
+  "simonkovtyk/dark-orchid-neovim",
+  lazy = false,
+  priority = 1000,
+  opts = {
+    integrations = {
+      plugin_name_without_lua_extension = {
+        enabled = true
+      }
+    }
+  }
+}
+```
+Change `plugin_name_without_lua_extension` with the actual Plugin filename from the given Directory, but WITHOUT lua file extension (.lua).
 
 ## License
 The MIT License (MIT) - Please have a look at the [LICENSE file](./LICENSE) for more details.

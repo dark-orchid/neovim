@@ -8,7 +8,7 @@ A [NeoVim](https://neovim.io/) theme, designed to match my preferences and fit s
 The Dark Orchid Theme is a cohesive visual ecosystem built around the striking color purple. Centered on the rich Dark Orchid shade, it highlights purple's depth, creativity, and elegance. Through balanced contrasts and unified tones, the theme creates a bold yet harmonious aesthetic that stands out across any design.
 
 ## Features
-- Supports latest NeoVim Features
+- Supports latest NeoVim Features (>= 0.11.0)
 - Fully Transparent
 - Many Plugin Integrations
 - IT'S PURPLE
@@ -41,12 +41,12 @@ return {
 ```
 After installing Dark Orchid with your Choice of Plugin Manager, you can enable this Theme in 2 Ways.
 
-### By `init.lua`:
+### By `init.lua`
 ```lua
 vim.cmd.colorscheme("dark-orchid")
 ```
 
-### By NeoVim Command:
+### By NeoVim Command
 ```shell
 :colorscheme dark-orchid
 ```
@@ -54,9 +54,9 @@ vim.cmd.colorscheme("dark-orchid")
 ## Configuration
 ### Integrations
 > [!IMPORTANT]
-> Since this Plugin should only activate necessary Integration, only NeoVim Integration is activated by default.
+> Since this Plugin should only activate necessary Integrations, only NeoVim is activated by default.
 > 
-> Here you'll learn how to enable all other Plugin Integrations.
+> To enable other Integrations, follow the Steps below.
 1. Go to the [Integrations Directory](./lua/dark-orchid/integrations/)
 2. Remember the Plugin filename from this Directory, you want to active Integration for
 3. Enable the Plugin Integration:

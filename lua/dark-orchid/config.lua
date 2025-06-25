@@ -25,9 +25,6 @@ M.default_config = {
     lazy = {
       enabled = false
     },
-    lualine = {
-      enabled = false
-    },
     mason = {
       enabled = false
     },
@@ -86,7 +83,13 @@ function M.validate_and_merge(config)
 end
 
 function M.apply_config_integrations(config)
+  local integrations_to_skip = { lualine = true }
+
   for integration_key, integration_value in pairs(config.integrations) do
+    if integrations_to_skip[integration_key] ~= nil then
+      goto continue;
+    end
+
     local is_enabled = integration_value.enabled;
 
     if not is_enabled then

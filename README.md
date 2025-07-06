@@ -33,7 +33,7 @@ Install Dark Orchid with your favorite Plugin Manager.
 For Example with [lazy.nvim](https://lazy.folke.io/installation):
 ```lua
 return {
-  "simonkovtyk/dark-orchid-neovim",
+  "dark-orchid/neovim",
   lazy = false,
   priority = 1000,
   opts = {},
@@ -62,7 +62,7 @@ vim.cmd.colorscheme("dark-orchid")
 3. Enable the Plugin Integration:
 ```lua
 return {
-  "simonkovtyk/dark-orchid-neovim",
+  "dark-orchid/neovim",
   lazy = false,
   priority = 1000,
   opts = {

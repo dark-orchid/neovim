@@ -6,8 +6,8 @@
 
   The Dark Orchid Theme is a cohesive visual ecosystem built around the striking color purple. Centered on the rich Dark Orchid shade, it highlights purple's depth, creativity, and elegance. Through balanced contrasts and unified tones, the theme creates a bold yet harmonious aesthetic that stands out across any design.
 
-  [![Last Release](https://img.shields.io/github/v/release/simonkovtyk/dark-orchid-neovim?sort=semver&display_name=release&color=7300ff)](./)
-  [![GitHub License](https://img.shields.io/github/license/simonkovtyk/dark-orchid-neovim?color=7300ff)](./LICENSE)
+  [![Last Release](https://img.shields.io/github/v/release/dark-orchid/neovim?sort=semver&display_name=release&color=7300ff)](./)
+  [![GitHub License](https://img.shields.io/github/license/dark-orchid/neovim?color=7300ff)](./LICENSE)
   [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-7300ff)](./)
 </div>
 

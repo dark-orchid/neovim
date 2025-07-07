@@ -33,7 +33,6 @@
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 
 ## Usage
-### Installation
 Install Dark Orchid with your favorite Plugin Manager.
 
 For Example with [lazy.nvim](https://lazy.folke.io/installation):
@@ -47,12 +46,12 @@ return {
 ```
 After installing Dark Orchid with your Choice of Plugin Manager, you can enable this Theme in 2 Ways.
 
-### By `init.lua`
+*by `init.lua`*
 ```lua
 vim.cmd.colorscheme("dark-orchid")
 ```
 
-### By NeoVim Command
+*by NeoVim Command*
 ```shell
 :colorscheme dark-orchid
 ```

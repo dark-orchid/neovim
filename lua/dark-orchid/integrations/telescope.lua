@@ -2,47 +2,49 @@ local palette = require("dark-orchid.colors");
 
 local M = {
   TelescopeBorder = {
-    fg = palette.purple_500
+    fg = palette.zinc_800
   },
   TelescopeMatching = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   TelescopeNormal = {
     bg = palette.none
   },
   TelescopePromptBorder = {
-    fg = palette.purple_500,
+    fg = palette.zinc_800,
     bg = palette.none
   },
   TelescopePromptNormal = {
-    fg = palette.purple_500,
+    fg = palette.zinc_300,
     bg = palette.none
   },
   TelescopePromptPrefix = {
-    fg = palette.purple_500,
+    fg = palette.zinc_300,
     bg = palette.none
   },
   TelescopePreviewTitle = {
-    fg = palette.purple_500,
+    fg = palette.zinc_300,
     bg = palette.none
   },
   TelescopePromptTitle = {
-    fg = palette.purple_500,
+    fg = palette.zinc_300,
     bg = palette.none
   },
   TelescopeResultsTitle = {
-    fg = palette.purple_500,
+    fg = palette.zinc_300,
     bg = palette.none
   },
   TelescopeSelection = {
-    fg = palette.purple_500,
-    bg = palette.none
+    fg = palette.zinc_300,
+    bg = palette.none,
+    bold = true
   },
   TelescopeSelectionCaret = {
-    fg = palette.purple_500
+    fg = palette.zinc_300,
+    bold = true
   },
   TelescopePreviewMatch = {
-    fg = palette.white,
+    fg = palette.zinc_300,
     bg = palette.purple_500
   }
 }

@@ -3,33 +3,33 @@ local palette = require("dark-orchid.colors");
 local M = {
   LazyH1 = {
     bg = palette.purple_500,
-    fg = palette.white
+    fg = palette.zinc_300
   },
   LazyButton = {
     bg = palette.none,
-    fg = palette.white
+    fg = palette.zinc_300
   },
   LazyButtonActive = {
     bg = palette.purple_500,
-    fg = palette.white
+    fg = palette.zinc_300
   },
   LazySpecial = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   LazyInfo = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   LazyComment = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   LazyProp = {
     fg = palette.zinc_500
   },
   LazyValue = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   LazyCommit = {
-    fg = palette.white
+    fg = palette.zinc_300
   }
 }
 

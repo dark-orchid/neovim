@@ -11,9 +11,9 @@ return {
     fg = palette.purple_500
   },
   DashboardKey = {
-    fg = palette.purple_200
+    fg = palette.purple_500
   },
   DashboardFooter = {
-    fg = palette.purple_200
+    fg = palette.zinc_300
   }
 }

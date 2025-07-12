@@ -1,4 +1,3 @@
-local utils = require("dark-orchid.utils");
 local config = require("dark-orchid.config");
 local M = {};
 

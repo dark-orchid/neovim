@@ -2,10 +2,10 @@ local palette = require("dark-orchid.colors");
 
 local M = {
   IndentLine = {
-    fg = palette.zinc_800
+    fg = palette.zinc_700
   },
   IndentLineCurrent = {
-    fg = palette.zinc_700
+    fg = palette.zinc_500
   }
 }
 

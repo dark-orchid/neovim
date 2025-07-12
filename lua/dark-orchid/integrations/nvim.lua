@@ -3,7 +3,7 @@ local palette = require("dark-orchid.colors");
 return {
   -- Editor
   Normal = {
-    fg = palette.white,
+    fg = palette.zinc_300,
     bg = palette.none
   },
   NormalNC = {
@@ -11,32 +11,32 @@ return {
   },
   NormalFloat = {
     bg = palette.none,
-    fg = palette.white
+    fg = palette.zinc_300
   },
   Pmenu = {
-    fg = palette.white,
+    fg = palette.zinc_300,
     bg = palette.none
   },
   PmenuSel = {
-    fg = palette.white,
+    fg = palette.zinc_300,
     bg = palette.purple_500
   },
   Search = {
     bg = palette.purple_500,
-    fg = palette.white
+    fg = palette.zinc_300
   },
   IncSearch = {
     bg = palette.purple_500,
-    fg = palette.white
+    fg = palette.zinc_300
   },
   TabLineFill = {
     bg = palette.none
   },
   WinSeparator = {
-    fg = palette.purple_500
+    fg = palette.zinc_700
   },
   VertSplit = {
-    fg = palette.purple_500
+    fg = palette.zinc_700
   },
   StatusLine = {
     bg = palette.none
@@ -45,8 +45,8 @@ return {
     bg = palette.none
   },
   Cursor = {
-    fg = palette.black,
-    bg = palette.white
+    fg = palette.zinc_900,
+    bg = palette.zinc_300
   },
   CursorLine = {
     bg = palette.none
@@ -83,39 +83,40 @@ return {
     undercurl = true
   },
   EndOfBuffer = {
-    fg = palette.zinc_500
+    fg = palette.zinc_700
   },
   LineNr = {
-    fg = palette.zinc_500
+    fg = palette.zinc_700
   },
   CursorLineNr = {
-    fg = palette.white
+    fg = palette.zinc_500
   },
   FloatBorder = {
-    fg = palette.purple_500
+    fg = palette.zinc_800
   },
 
   -- Syntax
   Comment = {
-    fg = palette.zinc_500
+    fg = palette.zinc_500,
+    italic = true
   },
   Constant = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   String = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   Character = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   Number = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   Boolean = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   Float = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   Statement = {
     fg = palette.purple_500
@@ -160,10 +161,10 @@ return {
     fg = palette.purple_500
   },
   Special = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   SpecialChar = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   Tag = {
     fg = palette.fuchsia_400

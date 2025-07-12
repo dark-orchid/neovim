@@ -29,13 +29,15 @@ M.default_config = {
       enabled = false
     },
     neotree = {
-      enabled = false
+      enabled = false,
+      show_end_of_buffer = true
     },
     telescope = {
       enabled = false
     },
     nvim = {
-      enabled = true
+      enabled = true,
+      show_end_of_buffer = true
     }
   }
 };

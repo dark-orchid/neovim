@@ -11,10 +11,10 @@ local M = {
     fg = palette.purple_500
   },
   NeoTreeFileIcon = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   NeoTreeFileName = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   NeoTreeFileNameOpened = {
     fg = palette.purple_200,
@@ -54,10 +54,10 @@ local M = {
     fg = palette.purple_500
   },
   NeoTreeIndentMarker = {
-    fg = palette.zinc_800
+    fg = palette.zinc_700
   },
   NeoTreeEndOfBuffer = {
-    fg = palette.zinc_500
+    fg = palette.zinc_700
   },
   NeoTreeFilterTerm = {
     fg = palette.purple_200
@@ -66,7 +66,7 @@ local M = {
     fg = palette.zinc_500
   },
   NeoTreeFloatNormal = {
-    fg = palette.white
+    fg = palette.zinc_300
   },
   NeoTreeFloatBorder = {
     fg = palette.purple_500

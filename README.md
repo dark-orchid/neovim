@@ -9,7 +9,7 @@
 
   [![Last Release Badge](https://img.shields.io/github/v/release/dark-orchid/neovim?sort=semver&display_name=release&color=7300ff&labelColor=27272a)](../../releases/latest)
   [![GitHub License Badge](https://img.shields.io/github/license/dark-orchid/neovim?color=7300ff&labelColor=27272a)](./LICENSE)
-  [![Contributions Welcomed Badge](https://img.shields.io/badge/contributions-welcomed-7300ff?labelColor=27272a)](../../?tab=readme-ov-file#contributing)
+  [![Contributions Welcomed Badge](https://img.shields.io/badge/contributions-welcomed-7300ff?labelColor=27272a)](#contributing)
   [![Sponsor Hint Badge](https://img.shields.io/badge/❤️-Sponsor_it-%23dc2626?style=flat&labelColor=27272a)](https://github.com/sponsors/simonkovtyk/)
 </div>
 

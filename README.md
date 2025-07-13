@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="196" height="196" src="https://github.com/dark-orchid/.github/blob/main/logo/196x196.png" />
+  <img width="196" height="196" src="./docs/logo.png" />
   <h1>Dark Orchid for NeoVim</h1>
 
   A NeoVim Theme, that's purple.
@@ -94,7 +94,7 @@ The MIT License (MIT) - Please have a look at the [LICENSE file](./LICENSE) for 
 ## Contributing
 Contributions are always welcome and greatly appreciated. Whether you want to report a bug, suggest a new feature, or improve the documentation, your input helps make the project better for everyone.
 
-Feel free to submit a pull request, issue or feature request or start a discussion.
+Feel free to submit a pull request, issue or feature request.
 
 ### Issues and Feature Requests
 Reporting an issue or creating a feature request is made by creating a new issue on this repository.

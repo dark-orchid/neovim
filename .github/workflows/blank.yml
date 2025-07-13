@@ -1,0 +1,20 @@
+name: Deploy
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Analyze Commits
+        uses: googleapis/release-please-action@v4
+        with:
+          release-type: simple

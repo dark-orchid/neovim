@@ -2,20 +2,23 @@
   <img width="196" height="196" src="https://github.com/dark-orchid/.github/blob/main/logo/196x196.png" />
   <h1>Dark Orchid for NeoVim</h1>
 
-  A [NeoVim](https://neovim.io/) Colorscheme, that's purple.
-
-  The Dark Orchid Theme is a cohesive visual ecosystem built around the striking color purple. Centered on the rich Dark Orchid shade, it highlights purple's depth, creativity, and elegance. Through balanced contrasts and unified tones, the theme creates a bold yet harmonious aesthetic that stands out across any design.
+  A NeoVim Theme, that's purple.
 
   *If you like this project, consider giving it a ⭐ to show your support!*<br/>
   *It also helps others to discover it.*
 
-  [![Last Release](https://img.shields.io/github/v/release/dark-orchid/neovim?sort=semver&display_name=release&color=7300ff&labelColor=27272a)](../../releases/latest)
-  [![GitHub License](https://img.shields.io/github/license/dark-orchid/neovim?color=7300ff&labelColor=27272a)](./LICENSE)
-  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-7300ff?labelColor=27272a)](../../issues/new/choose)
-  [![Sponsor Hint](https://img.shields.io/badge/❤️-Sponsor_it-%23dc2626?style=flat&labelColor=27272a)](https://github.com/sponsors/simonkovtyk/)
+  [![Last Release Badge](https://img.shields.io/github/v/release/dark-orchid/neovim?sort=semver&display_name=release&color=7300ff&labelColor=27272a)](../../releases/latest)
+  [![GitHub License Badge](https://img.shields.io/github/license/dark-orchid/neovim?color=7300ff&labelColor=27272a)](./LICENSE)
+  [![Contributions Welcomed Badge](https://img.shields.io/badge/contributions-welcomed-7300ff?labelColor=27272a)](../../?tab=readme-ov-file#contributing)
+  [![Sponsor Hint Badge](https://img.shields.io/badge/❤️-Sponsor_it-%23dc2626?style=flat&labelColor=27272a)](https://github.com/sponsors/simonkovtyk/)
 </div>
 
 ![Dark Orchid NeoVim Preview](./docs/preview.png)
+
+## About
+The Dark Orchid Theme is a cohesive visual ecosystem built around the striking color purple.
+
+Centered on the rich Dark Orchid shade, it highlights purple's depth, creativity, and elegance. Through balanced contrasts and unified tones, the theme creates a bold yet harmonious aesthetic that stands out across any design.
 
 ## Features
 - Supports latest NeoVim Features (>= 0.11.0)

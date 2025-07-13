@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="196" height="196" src="https://github.com/dark-orchid/.github/blob/main/logo/196x196.png" />
+  <img width="196" height="196" src="./docs/logo.png" />
   <h1>Dark Orchid for NeoVim</h1>
 
   A NeoVim Theme, that's purple.

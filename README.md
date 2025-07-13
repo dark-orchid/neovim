@@ -6,9 +6,13 @@
 
   The Dark Orchid Theme is a cohesive visual ecosystem built around the striking color purple. Centered on the rich Dark Orchid shade, it highlights purple's depth, creativity, and elegance. Through balanced contrasts and unified tones, the theme creates a bold yet harmonious aesthetic that stands out across any design.
 
-  [![Last Release](https://img.shields.io/github/v/release/dark-orchid/neovim?sort=semver&display_name=release&color=7300ff)](./)
-  [![GitHub License](https://img.shields.io/github/license/dark-orchid/neovim?color=7300ff)](./LICENSE)
-  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-7300ff)](./)
+  *If you like this project, consider giving it a ⭐ to show your support!*<br/>
+  *It also helps others to discover it.*
+
+  [![Last Release](https://img.shields.io/github/v/release/dark-orchid/neovim?sort=semver&display_name=release&color=7300ff&labelColor=27272a)](../../releases/latest)
+  [![GitHub License](https://img.shields.io/github/license/dark-orchid/neovim?color=7300ff&labelColor=27272a)](./LICENSE)
+  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-7300ff?labelColor=27272a)](../../issues/new/choose)
+  [![Sponsor Hint](https://img.shields.io/badge/❤️-Sponsor_it-%23dc2626?style=flat&labelColor=27272a)](https://github.com/sponsors/simonkovtyk/)
 </div>
 
 ![Dark Orchid NeoVim Preview](./docs/preview.png)
@@ -87,10 +91,25 @@ The MIT License (MIT) - Please have a look at the [LICENSE file](./LICENSE) for 
 ## Contributing
 Contributions are always welcome and greatly appreciated. Whether you want to report a bug, suggest a new feature, or improve the documentation, your input helps make the project better for everyone.
 
-If you're unsure where to start, check the open issues for guidance. Even small contributions, such as fixing typos or improving code readability, are valuable.
+Feel free to submit a pull request, issue or feature request or start a discussion.
 
-Feel free to submit a pull request or start a discussion — we're happy to collaborate!
+### Issues and Feature Requests
+Reporting an issue or creating a feature request is made by creating a new issue on this repository.
 
----
+You can create a [new issue or feature request here](../../issues/new/choose).
 
-© Simon Kovtyk
+### Pull Requests
+GitHub offers a solid guideline for contributing to open source projects through pull requests, covering key practices. These best practices provide a reliable starting point for making effective contributions.
+
+You can find the [guidelines here](https://docs.github.com/get-started/exploring-projects-on-github/contributing-to-a-project).
+
+### Code Of Conduct
+We are committed to keeping a welcoming, inclusive, and respectful community for everyone. To help us achieve this, we kindly ask that you adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+## Legal
+
+All trademarks and registered trademarks mentioned are property of their respective owners and are used for identification purposes only. Use of these names does not imply endorsement or affiliation.
+
+This project is a trademark of Dark Orchid. The License does not grant rights to use the trademark without permission.
+
+© 2025 — present by The Dark Orchid Maintainers

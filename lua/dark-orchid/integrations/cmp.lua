@@ -20,6 +20,12 @@ local M = {
   CmpItemKind = {
     fg = palette.purple_500
   },
+  CmpItemKindTabNine = {
+    fg = palette.purple_500
+  },
+  CmpItemKindCopilot = {
+    fg = palette.purple_500
+  },
   CmpDocumentation = {
     fg = palette.zinc_300
   }

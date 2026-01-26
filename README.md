@@ -46,12 +46,13 @@ For Example with [lazy.nvim](https://lazy.folke.io/installation):
 ```lua
 return {
   "dark-orchid/neovim",
+  main = "dark-orchid",
   lazy = false,
   priority = 1000,
   opts = {},
 }
 ```
-After installing Dark Orchid with your Choice of Plugin Manager, you can enable this Theme in 2 Ways.
+After installing Dark Orchid with your Choice of Plugin Manager, you can enable this theme in two ways.
 
 *by `init.lua`*
 ```lua

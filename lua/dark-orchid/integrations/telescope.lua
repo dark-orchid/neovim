@@ -2,7 +2,7 @@ local palette = require("dark-orchid.colors");
 
 local M = {
   TelescopeBorder = {
-    fg = palette.zinc_800
+    fg = palette.zinc_700
   },
   TelescopeMatching = {
     fg = palette.zinc_300
@@ -11,7 +11,7 @@ local M = {
     bg = palette.none
   },
   TelescopePromptBorder = {
-    fg = palette.zinc_800,
+    fg = palette.zinc_700,
     bg = palette.none
   },
   TelescopePromptNormal = {

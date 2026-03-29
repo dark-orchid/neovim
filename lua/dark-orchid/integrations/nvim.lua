@@ -92,7 +92,7 @@ return {
     fg = palette.zinc_500
   },
   FloatBorder = {
-    fg = palette.zinc_800
+    fg = palette.zinc_500
   },
 
   -- Syntax

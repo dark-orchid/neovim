@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.1](https://github.com/dark-orchid/neovim/compare/v3.2.0...v3.2.1) (2026-01-26)
+
+
+### Bug Fixes
+
+* enforce entry module by lazy.nvim ([3ced3f6](https://github.com/dark-orchid/neovim/commit/3ced3f63b7a48356824f6137e03262c9e539197a)), closes [#6](https://github.com/dark-orchid/neovim/issues/6)
+
 ## [3.2.0](https://github.com/dark-orchid/neovim/compare/v3.1.0...v3.2.0) (2025-11-22)
 
 

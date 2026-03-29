@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.2](https://github.com/dark-orchid/neovim/compare/v3.2.1...v3.2.2) (2026-03-29)
+
+
+### Bug Fixes
+
+* **neovim:** brighten border color ([0360b39](https://github.com/dark-orchid/neovim/commit/0360b390b85debe9004ee89c301273e51c987c91))
+
 ## [3.2.1](https://github.com/dark-orchid/neovim/compare/v3.2.0...v3.2.1) (2026-01-26)
 
 

@@ -13,7 +13,7 @@
   [![Sponsor Hint Badge](https://img.shields.io/badge/❤️-Sponsor_it-%23dc2626?style=flat&labelColor=27272a)](https://github.com/sponsors/simonkovtyk/)
 </div>
 
-![Dark Orchid NeoVim Preview](./docs/preview.png)
+![Dark Orchid NeoVim Preview](./docs/preview.avif)
 
 ## About
 The Dark Orchid Theme is a cohesive visual ecosystem built around the striking color purple.

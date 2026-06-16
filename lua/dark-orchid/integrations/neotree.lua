@@ -2,13 +2,13 @@ local palette = require("dark-orchid.colors");
 
 local M = {
   NeoTreeRootName = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeDirectoryName = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeDirectoryIcon = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeFileIcon = {
     fg = palette.zinc_300
@@ -17,41 +17,41 @@ local M = {
     fg = palette.zinc_300
   },
   NeoTreeFileNameOpened = {
-    fg = palette.purple_200,
+    fg = palette.zinc_300,
     bold = false
   },
   NeoTreeFileStatsHeader = {
     fg = palette.zinc_500
   },
   NeoTreeFileStats = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitAdded = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitConflict = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitDeleted = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitIgnored = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitModified = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitRenamed = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitStaged = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitUntracked = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeGitUnstaged = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   NeoTreeIndentMarker = {
     fg = palette.zinc_700
@@ -60,7 +60,7 @@ local M = {
     fg = palette.zinc_700
   },
   NeoTreeFilterTerm = {
-    fg = palette.purple_200
+    fg = palette.zinc_300
   },
   NeoTreeDimText = {
     fg = palette.zinc_500
@@ -69,7 +69,7 @@ local M = {
     fg = palette.zinc_300
   },
   NeoTreeFloatBorder = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   }
 }
 

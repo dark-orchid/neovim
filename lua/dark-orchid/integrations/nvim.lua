@@ -118,68 +118,83 @@ return {
   Float = {
     fg = palette.zinc_300
   },
-  Statement = {
-    fg = palette.purple_500
-  },
   Identifier = {
-    fg = palette.purple_200
+    fg = palette.zinc_300
   },
   Function = {
-    fg = palette.purple_200
+    fg = palette.blue_300
+  },
+  Statement = {
+    fg = palette.pink_300
   },
   Conditional = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Repeat = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Label = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Operator = {
-    fg = palette.purple_200
+    fg = palette.own_purple_300
   },
   Keyword = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Exception = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   PreProc = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Include = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Define = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Macro = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   PreCondit = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
+  },
+  Type = {
+    fg = palette.own_purple_200
+  },
+  StorageClass = {
+    fg = palette.own_purple_200
+  },
+  Structure = {
+    fg = palette.own_purple_200
+  },
+  Typedef = {
+    fg = palette.own_purple_200
   },
   Special = {
-    fg = palette.zinc_300
+    fg = palette.pink_300
   },
   SpecialChar = {
     fg = palette.zinc_300
   },
   Tag = {
-    fg = palette.fuchsia_400
+    fg = palette.own_purple_300
+  },
+  Delimiter = {
+    fg = palette.zinc_300
   },
   SpecialComment = {
-    fg = palette.purple_500
+    fg = palette.zinc_500
   },
   Debug = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   Underlined = {
-    fg = palette.purple_500
+    fg = palette.own_purple_300
   },
   Ignore = {
-    fg = palette.zinc_500
+    fg = palette.zinc_400
   },
   Error = {
     fg = palette.red_600
@@ -195,20 +210,5 @@ return {
   },
   Removed = {
     fg = palette.red_600
-  },
-  Delimiter = {
-    fg = palette.purple_200
-  },
-  Type = {
-    fg = palette.blue_400
-  },
-  Structure = {
-    fg = palette.blue_400
-  },
-  StorageClass = {
-    fg = palette.blue_400
-  },
-  Typedef = {
-    fg = palette.blue_400
   }
 }

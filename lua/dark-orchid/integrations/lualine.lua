@@ -3,11 +3,11 @@ local palette = require("dark-orchid.colors");
 local M = {
   normal = {
     a = {
-      bg = palette.purple_500,
+      bg = palette.own_purple_500,
       fg = palette.black
     },
     b = {
-      bg = palette.purple_500,
+      bg = palette.own_purple_500,
       fg = palette.black
     },
     c = {
@@ -23,7 +23,7 @@ local M = {
       fg = palette.zinc_500
     },
     z = {
-      bg = palette.purple_500,
+      bg = palette.own_purple_500,
       fg = palette.black
     }
   }

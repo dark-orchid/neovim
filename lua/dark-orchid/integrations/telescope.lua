@@ -45,7 +45,7 @@ local M = {
   },
   TelescopePreviewMatch = {
     fg = palette.zinc_300,
-    bg = palette.purple_500
+    bg = palette.own_purple_500
   }
 }
 

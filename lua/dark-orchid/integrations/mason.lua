@@ -7,17 +7,17 @@ local M = {
   },
   MasonHeaderSecondary = {
     fg = palette.zinc_300,
-    bg = palette.purple_500
+    bg = palette.own_purple_500
   },
   MasonHighlight = {
     fg = palette.zinc_300
   },
   MasonHighlightSecondary = {
-    fg = palette.purple_500
+    fg = palette.own_purple_500
   },
   MasonHighlightBlockBold = {
     fg = palette.zinc_300,
-    bg = palette.purple_500
+    bg = palette.own_purple_500
   },
   MasonMuted = {
     fg = palette.zinc_500
@@ -28,7 +28,7 @@ local M = {
   },
   MasonHighlightBlockBoldSecondary = {
     fg = palette.zinc_300,
-    bg = palette.purple_500
+    bg = palette.own_purple_500
   },
   MasonWarning = {
     fg = palette.yellow_600

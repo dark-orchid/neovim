@@ -9,7 +9,7 @@ local M = {
     strikethrough = true
   },
   CmpItemAbbrMatch = {
-    fg = palette.purple_500
+    fg = palette.own_purple_500
   },
   CmpItemAbbrMatchFuzzy = {
     fg = palette.zinc_300
@@ -18,13 +18,13 @@ local M = {
     fg = palette.zinc_300
   },
   CmpItemKind = {
-    fg = palette.purple_500
+    fg = palette.own_purple_500
   },
   CmpItemKindTabNine = {
-    fg = palette.purple_500
+    fg = palette.own_purple_500
   },
   CmpItemKindCopilot = {
-    fg = palette.purple_500
+    fg = palette.own_purple_500
   },
   CmpDocumentation = {
     fg = palette.zinc_300

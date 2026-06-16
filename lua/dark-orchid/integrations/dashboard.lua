@@ -2,16 +2,16 @@ local palette = require("dark-orchid.colors");
 
 return {
   DashboardHeader = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   DashboardDesc = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   DashboardIcon = {
-    fg = palette.purple_500
+    fg = palette.zinc_300
   },
   DashboardKey = {
-    fg = palette.purple_500
+    fg = palette.zinc_500
   },
   DashboardFooter = {
     fg = palette.zinc_300

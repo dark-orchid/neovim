@@ -2,7 +2,7 @@ local palette = require("dark-orchid.colors");
 
 local M = {
   LazyH1 = {
-    bg = palette.purple_500,
+    bg = palette.own_purple_500,
     fg = palette.zinc_300
   },
   LazyButton = {
@@ -10,7 +10,7 @@ local M = {
     fg = palette.zinc_300
   },
   LazyButtonActive = {
-    bg = palette.purple_500,
+    bg = palette.own_purple_500,
     fg = palette.zinc_300
   },
   LazySpecial = {

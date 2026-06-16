@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.0](https://github.com/dark-orchid/neovim/compare/v3.2.2...v3.3.0) (2026-06-16)
+
+
+### Features
+
+* improve colors ([547ec8b](https://github.com/dark-orchid/neovim/commit/547ec8b09d172c45ce726a1695c983d964879bea))
+
 ## [3.2.2](https://github.com/dark-orchid/neovim/compare/v3.2.1...v3.2.2) (2026-03-29)
 
 

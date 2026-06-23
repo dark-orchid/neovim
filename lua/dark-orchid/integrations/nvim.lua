@@ -65,7 +65,7 @@ return {
     fg = palette.red_600
   },
   DiagnosticUnderlineError = {
-    sp = palette.red_600,
+    sp = palette.red_900,
     undercurl = true
   },
   DiagnosticHint = {
@@ -104,19 +104,19 @@ return {
     fg = palette.zinc_300
   },
   String = {
-    fg = palette.zinc_300
+    fg = palette.green_300
   },
   Character = {
-    fg = palette.zinc_300
+    fg = palette.green_300
   },
   Number = {
-    fg = palette.zinc_300
+    fg = palette.green_300
   },
   Boolean = {
-    fg = palette.zinc_300
+    fg = palette.green_300
   },
   Float = {
-    fg = palette.zinc_300
+    fg = palette.green_300
   },
   Identifier = {
     fg = palette.zinc_300
@@ -128,58 +128,55 @@ return {
     fg = palette.pink_300
   },
   Conditional = {
-    fg = palette.own_purple_300
+    fg = palette.violet_400
   },
   Repeat = {
-    fg = palette.own_purple_300
+    fg = palette.violet_400
   },
   Label = {
-    fg = palette.own_purple_300
+    fg = palette.violet_400
   },
   Operator = {
-    fg = palette.own_purple_300
+    fg = palette.cyan_200
   },
   Keyword = {
-    fg = palette.own_purple_300
+    fg = palette.violet_400
   },
   Exception = {
-    fg = palette.own_purple_300
+    fg = palette.violet_400
   },
   PreProc = {
-    fg = palette.own_purple_300
+    fg = palette.blue_300
   },
   Include = {
-    fg = palette.own_purple_300
+    fg = palette.blue_300
   },
   Define = {
-    fg = palette.own_purple_300
+    fg = palette.blue_300
   },
   Macro = {
-    fg = palette.own_purple_300
+    fg = palette.blue_300
   },
   PreCondit = {
-    fg = palette.own_purple_300
+    fg = palette.blue_300
   },
   Type = {
-    fg = palette.own_purple_200
+    fg = palette.cyan_200
   },
   StorageClass = {
-    fg = palette.own_purple_200
+    fg = palette.purple_400
   },
   Structure = {
-    fg = palette.own_purple_200
+    fg = palette.cyan_200
   },
   Typedef = {
-    fg = palette.own_purple_200
-  },
-  Special = {
-    fg = palette.pink_300
+    fg = palette.cyan_200
   },
   SpecialChar = {
     fg = palette.zinc_300
   },
   Tag = {
-    fg = palette.own_purple_300
+    fg = palette.purple_400
   },
   Delimiter = {
     fg = palette.zinc_300
@@ -191,7 +188,7 @@ return {
     fg = palette.zinc_300
   },
   Underlined = {
-    fg = palette.own_purple_300
+    fg = palette.zinc_300
   },
   Ignore = {
     fg = palette.zinc_400
@@ -210,5 +207,17 @@ return {
   },
   Removed = {
     fg = palette.red_600
+  },
+  jsxTagName = {
+    fg = palette.pink_300
+  },
+  tsxTagName = {
+    fg = palette.pink_300
+  },
+  ["@attribute.css"] = {
+    fg = palette.purple_400
+  },
+  ["@property.css"] = {
+    fg = palette.fuchsia_300
   }
 }

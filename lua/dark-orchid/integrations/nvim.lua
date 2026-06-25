@@ -18,16 +18,21 @@ return {
     bg = palette.none
   },
   PmenuSel = {
-    fg = palette.zinc_300,
-    bg = palette.purple_500
+    fg = palette.black,
+    bg = palette.own_purple_500
+  },
+  PmenuBorder = {
+    fg = palette.zinc_700
   },
   Search = {
-    bg = palette.purple_500,
-    fg = palette.zinc_300
+    bg = palette.zinc_700
   },
   IncSearch = {
-    bg = palette.purple_500,
-    fg = palette.zinc_300
+    bg = palette.zinc_700
+  },
+  CurSearch = {
+    bg = palette.own_purple_500,
+    fg = palette.black
   },
   TabLineFill = {
     bg = palette.none
@@ -92,7 +97,7 @@ return {
     fg = palette.zinc_500
   },
   FloatBorder = {
-    fg = palette.zinc_500
+    fg = palette.zinc_700
   },
 
   -- Syntax

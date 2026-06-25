@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.4.0](https://github.com/dark-orchid/neovim/compare/v3.3.0...v3.4.0) (2026-06-25)
+
+
+### Features
+
+* improve syntax highlighting ([cf964d5](https://github.com/dark-orchid/neovim/commit/cf964d536610fb623944f5fb6760b5df7bb3ac07))
+* **nvim:** improve highlights ([9034fdc](https://github.com/dark-orchid/neovim/commit/9034fdc4407d37c0e579f75f9438003084145db6))
+
 ## [3.3.0](https://github.com/dark-orchid/neovim/compare/v3.2.2...v3.3.0) (2026-06-16)
 
 

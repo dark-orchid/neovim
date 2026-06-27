@@ -16,6 +16,9 @@ local M = {
   NeoTreeFileName = {
     fg = palette.zinc_300
   },
+  NeoTreeSelected = {
+    bg = palette.own_purple_500
+  },
   NeoTreeFileNameOpened = {
     fg = palette.zinc_300,
     bold = false
@@ -69,7 +72,7 @@ local M = {
     fg = palette.zinc_300
   },
   NeoTreeFloatBorder = {
-    fg = palette.zinc_300
+    fg = palette.zinc_700
   }
 }
 
